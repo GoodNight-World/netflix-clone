@@ -28,9 +28,9 @@
 
 @media (max-width: 789px) {
     .movie_img {
-        width: 100px;
+        width: 97px;
     }
     .movie_img:hover {
-        width: 180px;
+        width: 170px;
     }
 }

@@ -79,9 +79,9 @@
     box-shadow: 0px -5px 25px 30px rgba(255, 255, 255, 0.224);
 }
 
-@media (max-width: 789px) {
+@media (max-width: 780px) {
     .header{
-        height: 250px;
+        height: 220px;
     }
     .background_info{
         width: 200px;
