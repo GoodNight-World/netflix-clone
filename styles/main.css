@@ -1,8 +1,5 @@
-.main {
-    width: 100%;
-}
-
 .movie_container {
+    width: 100%;
     margin-top: 20px;
     margin-right: 10px;
     display: flex;
@@ -13,13 +10,13 @@
 }
 
 .movie_img {
-    width: 150px;
+    width: 10%;
     object-fit: contain;
     transition: width 0.4s 0.23s, opacity 0.3s;
 }
 
 .movie_img:hover {
-    width: 200px;
+    width: 15%;
 }
 
 .movie_img:active {
