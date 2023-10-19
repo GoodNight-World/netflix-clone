@@ -4,22 +4,22 @@
 
 .movie_container {
     margin-top: 20px;
+    margin-right: 10px;
     display: flex;
     flex-wrap: wrap;
     position: relative;
-    left: 40px;
-    gap: 40px;
+    left: 20px;
+    gap: 30px;
 }
 
 .movie_img {
-    position: relative;
     width: 150px;
     object-fit: contain;
-    transition: width 0.5s 0.23s, opacity 0.3s;
+    transition: width 0.4s 0.23s, opacity 0.3s;
 }
 
 .movie_img:hover {
-    width: 220px;
+    width: 200px;
 }
 
 .movie_img:active {
@@ -31,6 +31,6 @@
         width: 90px;
     }
     .movie_img:hover {
-        width: 130px;
+        width: 110px;
     }
 }
