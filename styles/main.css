@@ -1,0 +1,27 @@
+.main {
+    width: 100%;
+}
+
+.movie_container {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    left: 40px;
+    gap: 40px;
+}
+
+.movie_img {
+    position: relative;
+    width: 200px;
+    object-fit: contain;
+    transition: width 0.5s 0.23s, opacity 0.3s;
+}
+
+.movie_img:hover {
+    width: 300px;
+}
+
+.movie_img:active {
+    opacity: 0.5;
+}

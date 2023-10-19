@@ -1,0 +1,73 @@
+.header {
+    width: 100%;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.background_container {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+#logo_img {
+    z-index: 1;
+    width: 100px;
+    position: absolute;
+    left: 15px;
+    top: 15px;
+}
+
+#background_img {
+    width: 100%;
+    object-fit: contain;
+    z-index: 0;
+}
+
+.background_info {
+    padding: 0 10px;
+    width: 400px;
+    z-index: 2;
+    position: absolute;
+    left: 15px;
+    bottom: 100px;
+    
+}
+
+.background_info h1 {
+    font-size: 50px;
+}
+
+.background_info button {
+    padding: 8px 25px;
+    margin: 10px 5px 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: #0000004e;
+    color: white;
+    font-size: 16px;
+    transition: opacity 0.5s;
+}
+
+.background_info button:hover {
+    opacity: 0.7;
+}
+.background_info button:active {
+    opacity: 0.4;
+}
+
+.background_info p{
+    font-size: 14px;
+}
+
+#blur {
+    position: absolute;
+    border: 0.1px solid rgba(255, 255, 255, 0.114);
+    bottom: 0;
+    left: 0;
+    right: 0;
+    box-shadow: 0 -5px 25px 30px rgba(255, 255, 255, 0.224);
+}
+
